@@ -2,9 +2,9 @@ name: CI pipeline for jest tutorial
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull-request:
-    branches: [main]
+    branches: [master]
   
 jobs:
   build-and-test:
