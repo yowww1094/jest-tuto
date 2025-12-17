@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+coverage/
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Testing
+*.tap
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS-specific files (optional, can be in a global gitignore)
+.DS_Store
+Thumbs.db
